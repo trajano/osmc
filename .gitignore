@@ -32,3 +32,7 @@ ui_*.h
 *.qmlproject.user.*
 package/mediacenter-addon-osmc/src/string_check.py
 *.gitignore
+
+# Toolchains
+toolchains/armv7-toolchain-osmc/armv7-toolchain-osmc.deb
+toolchains/armv7-toolchain-osmc/output/
