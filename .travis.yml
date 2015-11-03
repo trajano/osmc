@@ -1,4 +1,6 @@
 sudo: true
+os:
+- linux
 install: true
 script:
 - bash build_toolchains.sh
