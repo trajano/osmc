@@ -11,6 +11,7 @@ function check_platform()
             return 0
             ;;
         * )
+            echo -e "unsupported platform $platform"
             return 1
     esac
 }
