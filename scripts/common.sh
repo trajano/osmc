@@ -74,6 +74,7 @@ function install_package()
 function fetch_filesystem()
 {
 	echo -e "Fetching base filesystem for building target\nPlease be patient"
+	ls -lR  /usr/share/debootstrap/scripts
 	debootstrap $1
 	if [ $? == 0 ]
 	then
