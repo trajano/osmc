@@ -1,7 +1,8 @@
 sudo: true
 os:
 - linux
-install: true
+install: 
+- sudo apt-get install debootstrap=1.0.48+deb7u4
 script:
 - bash build_toolchains.sh
 
